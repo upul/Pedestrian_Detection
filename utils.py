@@ -122,8 +122,8 @@ def plot(image, grids, label, bbx):
 
 if __name__ == '__main__':
     img_file_name = '1479498372942264998.jpg'
-    image_dirs = ['D:\\datasets\\udacity\\debug']
-    annotation_files = ['D:\\datasets\\udacity\\debug\\labels.csv']
+    image_dirs = ['/home/upul/datasets/udacity/debug']
+    annotation_files = ['/home/upul/datasets/udacity/debug/labels.csv']
     images = read_images(image_dirs)
     bboxes = read_bounding_boxes(annotation_files)
     print(bboxes[img_file_name])
